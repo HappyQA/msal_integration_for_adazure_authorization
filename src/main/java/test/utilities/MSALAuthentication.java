@@ -13,6 +13,10 @@ import com.microsoft.aad.msal4j.IClientCredential;
 import com.microsoft.aad.msal4j.MsalException;
 import com.microsoft.aad.msal4j.SilentParameters;
 
+/**
+ * Source: https://blogs.aaddevsup.xyz/2020/04/implement-client-credentials-flow-for-graph-java-client/
+ */
+
 public class MSALAuthentication {
     private static String applicationId;
     // Set authority to allow only organizational accounts
